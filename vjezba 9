@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="hr">
+	<head>
+		<title>Programiranje web aplikacija</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="author" content="Josip Mamić">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	</head>
+	<body>
+		<div style="width: 48%; float:left;margin-right:2%">
+			<h2>HTML 5 <span style="color:green">&lt;video&gt;</span> element Biologija video</h2> 
+			<video width="100%" height="100%" controls poster="pipeta.jfif">
+				<source src="video (2160p).mp4" type="video/mp4">
+				Your video does not support the video tag.
+			</video>
+		</div>
+		
+		<div style="width: 50%; float: left;">
+			<h2>Youtube biološko istraživanje</h2>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/WbeYzwK61c4?si=hBUHkwvyN8xUTKGN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		</div>
+	</body>
+</html>
